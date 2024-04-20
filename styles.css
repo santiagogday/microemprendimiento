@@ -1,0 +1,143 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(197, 160, 119);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+i{
+    transition: .4s;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+
+.objetivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tripleImpacto h2{
+    text-align: center;
+}
+
+.mision,.vision,.objetivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.titulo{
+    margin: 10px;
+    width: 150px;
+}
+
+.principal:hover{
+    color: green;
+}
+
+.titulo h3{
+    text-align: center
+}
+
+.texto{
+    width: 400px;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+.comidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cesar{
+    margin-right: 170px;
+}
+
+.wok{
+    margin-left: 170px;
+}
+
+.cesar h3{
+    text-align: center;
+}
+
+.cesar h5{
+    text-align: center;
+}
+
+.wok h3{
+    text-align: center;
+}
+
+.wok h5{
+    text-align: center;
+}
+
+.principal{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.social,.ambiental,.economico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.datos h3{
+    text-align: center;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+iframe{
+    height:400px;
+    width: 500px;
+    margin-right: 20px;
+}
+
+.green{
+    color: white;
+}
+
+.green:hover{
+    color: green;
+}
+
+.formas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
